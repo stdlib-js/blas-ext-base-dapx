@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dapx;
+})();
 })();
 </script>
 ```
@@ -167,6 +169,7 @@ dapx.ndarray( 3, 5.0, x, 1, x.length-3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapx@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var rand;
 var sign;
@@ -189,6 +192,7 @@ console.log( x );
 dapx( x.length, 5.0, x, 1 );
 console.log( x );
 
+})();
 })();
 </script>
 </body>
@@ -283,15 +287,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-dapx/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/gapx]: https://github.com/stdlib-js/blas-ext-base-gapx/tree/umd
+[@stdlib/blas/ext/base/gapx]: https://github.com/stdlib-js/blas-ext-base-gapx/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas-ext-base-sapx/tree/umd
+[@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas-ext-base-sapx/tree/umd/tree/umd
 
 <!-- </related-links> -->
 

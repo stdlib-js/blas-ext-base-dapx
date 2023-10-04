@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapx@esm/index.mjs';
+import dapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapx@v0.1.1-esm/index.mjs';
 ```
 
 #### dapx( N, alpha, x, stride )
@@ -153,7 +153,7 @@ dapx.ndarray( 3, 5.0, x, 1, x.length-3 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapx@esm/index.mjs';
+import dapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapx@v0.1.1-esm/index.mjs';
 
 var rand;
 var sign;

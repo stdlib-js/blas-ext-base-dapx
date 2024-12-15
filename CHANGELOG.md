@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-15)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`1ea5a78`](https://github.com/stdlib-js/stdlib/commit/1ea5a786066c959ee3560a58ca884ffe1fa6a4de) - **docs:** remove stray character in `blas/ext/base/dapx` documentation [(#3250)](https://github.com/stdlib-js/stdlib/pull/3250) _(by Muhammad Haris)_
 -   [`9c913e5`](https://github.com/stdlib-js/stdlib/commit/9c913e504f964aa729ec1f19abbaae30174ddbd8) - **docs:** update descriptions of the function and its parameters in `blas/ext/base/dapx` [(#3226)](https://github.com/stdlib-js/stdlib/pull/3226) _(by Muhammad Haris)_
 -   [`a187bfc`](https://github.com/stdlib-js/stdlib/commit/a187bfc1f71912625823d786f7b1234b224b323d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapx` [(#2929)](https://github.com/stdlib-js/stdlib/pull/2929) _(by Muhammad Haris, Athan Reines)_

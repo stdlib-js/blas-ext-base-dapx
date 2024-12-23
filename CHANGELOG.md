@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`1ea5a78`](https://github.com/stdlib-js/stdlib/commit/1ea5a786066c959ee3560a58ca884ffe1fa6a4de) - **docs:** remove stray character in `blas/ext/base/dapx` documentation [(#3250)](https://github.com/stdlib-js/stdlib/pull/3250) _(by Muhammad Haris)_
 -   [`9c913e5`](https://github.com/stdlib-js/stdlib/commit/9c913e504f964aa729ec1f19abbaae30174ddbd8) - **docs:** update descriptions of the function and its parameters in `blas/ext/base/dapx` [(#3226)](https://github.com/stdlib-js/stdlib/pull/3226) _(by Muhammad Haris)_
@@ -88,7 +89,7 @@ This release closes the following issue:
 
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`ceb4943`](https://github.com/stdlib-js/stdlib/commit/ceb494351d42c2505e559a2c8aad9a120c76d0db) - **docs:** remove comments _(by Athan Reines)_
--   [`0d2528e`](https://github.com/stdlib-js/stdlib/commit/0d2528ece212fef00cf6c641c298d174b3c3ba04) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#1954)](https://github.com/stdlib-js/stdlib/pull/1954) _(by naveen, Athan Reines)_
+-   [`0d2528e`](https://github.com/stdlib-js/stdlib/commit/0d2528ece212fef00cf6c641c298d174b3c3ba04) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#1954)](https://github.com/stdlib-js/stdlib/pull/1954) _(by Naveen Kumar, Athan Reines)_
 
 </details>
 
@@ -103,8 +104,8 @@ This release closes the following issue:
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Naveen Kumar
 -   Philipp Burckhardt
--   naveen
 
 </section>
 

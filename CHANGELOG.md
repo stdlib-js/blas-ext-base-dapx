@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-14)
+## Unreleased (2025-02-06)
 
 <section class="features">
 
@@ -26,12 +26,26 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4): - `c_dapx()` renamed to `stdlib_strided_dapx()`
+
+    -   - `c_dapx_ndarray()` renamed to `stdlib_strided_dapx_ndarray()`
+        All downstream usage of the old `c_dapx*` symbols must be updated to use the new symbols.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`88e4c0a`](https://github.com/stdlib-js/stdlib/commit/88e4c0a78b9a33f5b74417de9a0eabca256803de) - **docs:** update related packages sections [(#5074)](https://github.com/stdlib-js/stdlib/pull/5074) _(by stdlib-bot)_
 -   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#4737)](https://github.com/stdlib-js/stdlib/pull/4737) _(by Muhammad Haris)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_

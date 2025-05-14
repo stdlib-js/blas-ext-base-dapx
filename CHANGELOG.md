@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-05-14)
 
 <section class="features">
 
 ### Features
 
+-   [`47043f4`](https://github.com/stdlib-js/stdlib/commit/47043f4dd5b22794abc28364824a19e1712a8dc7) - add `blas/ext/base/wasm/dapx` [(#5643)](https://github.com/stdlib-js/stdlib/pull/5643)
 -   [`a187bfc`](https://github.com/stdlib-js/stdlib/commit/a187bfc1f71912625823d786f7b1234b224b323d) - add C `ndarray` API and refactor `blas/ext/base/dapx` [(#2929)](https://github.com/stdlib-js/stdlib/pull/2929)
 
 </section>
@@ -39,12 +40,25 @@
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5504](https://github.com/stdlib-js/stdlib/issues/5504)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`47043f4`](https://github.com/stdlib-js/stdlib/commit/47043f4dd5b22794abc28364824a19e1712a8dc7) - **feat:** add `blas/ext/base/wasm/dapx` [(#5643)](https://github.com/stdlib-js/stdlib/pull/5643) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`88e4c0a`](https://github.com/stdlib-js/stdlib/commit/88e4c0a78b9a33f5b74417de9a0eabca256803de) - **docs:** update related packages sections [(#5074)](https://github.com/stdlib-js/stdlib/pull/5074) _(by stdlib-bot)_
 -   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#4737)](https://github.com/stdlib-js/stdlib/pull/4737) _(by Muhammad Haris)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
@@ -66,11 +80,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
